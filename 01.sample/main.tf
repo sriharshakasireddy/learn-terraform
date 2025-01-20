@@ -1,3 +1,4 @@
-output "demo" {
-  value = "Hello World"
+resource "azurerm_resource_group" "example" {
+  name     = "harsha"
+  location = "West Europe"
 }
